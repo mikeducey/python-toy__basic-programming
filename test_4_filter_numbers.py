@@ -1,6 +1,10 @@
 def filter_numbers(arr):
-  # Remove the `return None` code below and add your own code.
-  return None
+  new_arr = [number for number in arr if number < 10]
+  return new_arr
+
+# I had to look up filtering, and found this general form: [mapping-expression for element in source-list if filter-expression] on http://www.diveintopython.net/power_of_introspection/filtering_lists.html
+# I have to give credit where credit is due, since I did not learn filtering when taking python before.
+
 
 # -----------------------------------------------------------------------------
 
